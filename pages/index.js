@@ -26,18 +26,6 @@ export default function Home() {
               <i className="bi bi-file-earmark-text-fill" /> Form Maker
             </h1>
             <p className="text-white">Create and share online forms.</p>
-            <menu className="flex gap-4">
-              <Link href="/register">
-                <button className="ease-in-out duration-100 p-2 text-indigo-800 font-bold  border rounded bg-white hover:opacity-70">
-                  Register
-                </button>
-              </Link>
-              <Link href="/login">
-                <button className="ease-in-out duration-100 p-2 text-white border rounded border-white hover:opacity-70">
-                  Login
-                </button>
-              </Link>
-            </menu>
           </header>
 
           <menu className="flex self-center gap-4 py-4">
